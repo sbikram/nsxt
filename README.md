@@ -12,11 +12,11 @@ go build main.go
 ```
 ## Create env variables
 You need to define below env variable to s this tool can connect to NSX-T Manager
-NSXT_USERNAME - NSX-T user with access to create logical switches
-NSXT_PASSWORD - NSX-T password
-NSXT_MANAGER_HOST - IP or Hostname of NSX-T manager
-NSXT_ALLOW_UNVERIFIED_SSL - Bool(true or false), set this to false if NSX-T manager is using self-signed cert
-RVTOOLS_SHEET_NAME - Name of the sheet in RV_Rools excel sheet from where you want this tool to read switch port information
+* NSXT_USERNAME - NSX-T user with access to create logical switches
+* NSXT_PASSWORD - NSX-T password
+* NSXT_MANAGER_HOST - IP or Hostname of NSX-T manager
+* NSXT_ALLOW_UNVERIFIED_SSL - Bool(true or false), set this to false if NSX-T manager is using self-signed cert
+* RVTOOLS_SHEET_NAME - Name of the sheet in RV_Rools excel sheet from where you want this tool to read switch port information
 
 ## Run the tool
 Usage: nsxcfg -f <input_rv_tools.xlsx>
