@@ -19,5 +19,7 @@ Define below env variables, Tool uses these varibales to authenticate to NSX-T M
 * RVTOOLS_SHEET_NAME - Name of the sheet in RV_Rools excel sheet from where you want this tool to read switch port information
 
 ## Run the tool
+```
 ./main -f <input_rv_tools.xlsx>
+```
 
