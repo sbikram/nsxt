@@ -11,7 +11,7 @@ cd nsxt
 go build main.go
 ```
 ## Create env variables
-You need to define below env variable to s this tool can connect to NSX-T Manager
+Define below env variables, Tool uses these varibales to authenticate to NSX-T Manager
 * NSXT_USERNAME - NSX-T user with access to create logical switches
 * NSXT_PASSWORD - NSX-T password
 * NSXT_MANAGER_HOST - IP or Hostname of NSX-T manager
