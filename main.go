@@ -18,7 +18,7 @@ import (
 
 //USAGE Program usage statement
 //const USAGE string = "Usage: nsxcfg -h <nsx_host> -t <tcp_port> -u <username> -p <password> -c <certificate> -f <input_rv_tools.xlsx>"
-const USAGE string = "Usage: nsxcfg  -f <input_rv_tools.xlsx>"
+const USAGE string = "Usage: nsxcfg -f <input_rv_tools.xlsx>"
 
 func empty(str string) bool {
 	return len(str) == 0
@@ -162,11 +162,11 @@ func main() {
 	}
 
 	for rows.Next() {
-		row, err := rows.Columns()
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
+		row := rows.Columns()
+		// if err != nil {
+		// 	fmt.Println(err)
+		// 	return
+		// }
 		portGroups = append(portGroups, row[0])
 		vlans = append(vlans, row[4])
 		//fmt.Printf("%s\t%s\n", row[0], row[4]) // Print values in columns B and D

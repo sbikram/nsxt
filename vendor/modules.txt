@@ -1,0 +1,96 @@
+# github.com/360EntSecGroup-Skylar/excelize v1.4.1
+## explicit
+github.com/360EntSecGroup-Skylar/excelize
+# github.com/antihax/optional v1.0.0
+github.com/antihax/optional
+# github.com/beevik/etree v1.1.0
+github.com/beevik/etree
+# github.com/gibson042/canonicaljson-go v1.0.3
+github.com/gibson042/canonicaljson-go
+# github.com/golang/protobuf v1.2.0
+github.com/golang/protobuf/proto
+# github.com/google/uuid v1.1.2
+## explicit
+github.com/google/uuid
+# github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
+github.com/mohae/deepcopy
+# github.com/vmware/go-vmware-nsxt v0.0.0-20201201191552-e8b90e7eb469
+## explicit
+github.com/vmware/go-vmware-nsxt
+github.com/vmware/go-vmware-nsxt/aaa
+github.com/vmware/go-vmware-nsxt/administration
+github.com/vmware/go-vmware-nsxt/aggregation
+github.com/vmware/go-vmware-nsxt/apiservice
+github.com/vmware/go-vmware-nsxt/appdiscovery
+github.com/vmware/go-vmware-nsxt/association
+github.com/vmware/go-vmware-nsxt/common
+github.com/vmware/go-vmware-nsxt/containerinventory
+github.com/vmware/go-vmware-nsxt/errorresolver
+github.com/vmware/go-vmware-nsxt/licensing
+github.com/vmware/go-vmware-nsxt/loadbalancer
+github.com/vmware/go-vmware-nsxt/manager
+github.com/vmware/go-vmware-nsxt/monitoring
+github.com/vmware/go-vmware-nsxt/normalization
+github.com/vmware/go-vmware-nsxt/policy
+github.com/vmware/go-vmware-nsxt/trust
+github.com/vmware/go-vmware-nsxt/upgrade
+# github.com/vmware/vsphere-automation-sdk-go/lib v0.3.1
+## explicit
+github.com/vmware/vsphere-automation-sdk-go/lib/vapi/std
+github.com/vmware/vsphere-automation-sdk-go/lib/vapi/std/errors
+# github.com/vmware/vsphere-automation-sdk-go/runtime v0.3.1
+## explicit
+github.com/vmware/vsphere-automation-sdk-go/runtime/bindings
+github.com/vmware/vsphere-automation-sdk-go/runtime/common
+github.com/vmware/vsphere-automation-sdk-go/runtime/core
+github.com/vmware/vsphere-automation-sdk-go/runtime/data
+github.com/vmware/vsphere-automation-sdk-go/runtime/data/serializers/cleanjson
+github.com/vmware/vsphere-automation-sdk-go/runtime/data/serializers/rest
+github.com/vmware/vsphere-automation-sdk-go/runtime/l10n
+github.com/vmware/vsphere-automation-sdk-go/runtime/l10n/runtime
+github.com/vmware/vsphere-automation-sdk-go/runtime/lib
+github.com/vmware/vsphere-automation-sdk-go/runtime/lib/rest
+github.com/vmware/vsphere-automation-sdk-go/runtime/log
+github.com/vmware/vsphere-automation-sdk-go/runtime/metadata
+github.com/vmware/vsphere-automation-sdk-go/runtime/metadata/info
+github.com/vmware/vsphere-automation-sdk-go/runtime/protocol
+github.com/vmware/vsphere-automation-sdk-go/runtime/protocol/client
+github.com/vmware/vsphere-automation-sdk-go/runtime/protocol/client/metadata
+github.com/vmware/vsphere-automation-sdk-go/runtime/protocol/server
+github.com/vmware/vsphere-automation-sdk-go/runtime/protocol/server/rpc/msg
+github.com/vmware/vsphere-automation-sdk-go/runtime/security
+# github.com/vmware/vsphere-automation-sdk-go/services/nsxt v0.4.0
+## explicit
+github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra
+github.com/vmware/vsphere-automation-sdk-go/services/nsxt/model
+# github.com/vmware/vsphere-automation-sdk-go/services/nsxt-gm v0.2.0
+## explicit
+github.com/vmware/vsphere-automation-sdk-go/services/nsxt-gm/global_infra
+github.com/vmware/vsphere-automation-sdk-go/services/nsxt-gm/model
+# golang.org/x/net v0.0.0-20200602114024-627f9648deb9
+golang.org/x/net/context
+golang.org/x/net/context/ctxhttp
+# golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
+golang.org/x/oauth2
+golang.org/x/oauth2/internal
+# golang.org/x/text v0.3.2
+golang.org/x/text/feature/plural
+golang.org/x/text/internal
+golang.org/x/text/internal/catmsg
+golang.org/x/text/internal/format
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/number
+golang.org/x/text/internal/stringset
+golang.org/x/text/internal/tag
+golang.org/x/text/language
+golang.org/x/text/message
+golang.org/x/text/message/catalog
+# google.golang.org/appengine v1.4.0
+google.golang.org/appengine/internal
+google.golang.org/appengine/internal/base
+google.golang.org/appengine/internal/datastore
+google.golang.org/appengine/internal/log
+google.golang.org/appengine/internal/remote_api
+google.golang.org/appengine/internal/urlfetch
+google.golang.org/appengine/urlfetch
