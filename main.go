@@ -155,7 +155,7 @@ func main() {
 
 	portGroups := []string{}
 	vlans := []string{}
-	rows, err := f.Rows("BIKRAM")
+	rows, err := f.Rows(os.Getenv("RVTOOLS_SHEET_NAME"))
 	if err != nil {
 		fmt.Println(err)
 		return
